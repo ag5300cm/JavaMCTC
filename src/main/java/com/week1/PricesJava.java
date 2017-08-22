@@ -25,6 +25,7 @@ public class PricesJava {
                 + price + " each costs $"
                 + totalPrice);
 
+        //Change to commit
     }
 
 }
