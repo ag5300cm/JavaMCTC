@@ -11,9 +11,20 @@ public class Main {
         
         /* Write your code here */
         
-        String name = stringInput("Please enter your name?");
-        System.out.println("Hello, " + name + "!");
-        
+        //String name = stringInput("Please enter your name?");
+        //System.out.println("Hello, " + name + "!");
+
+        double mms = doubleInput("How many M&Ms in a packet?");
+        int people = intInput("How many people would like to share?");
+
+        double mmsEach = mms / people;
+
+        System.out.printf("Each person will get " + mmsEach + " M&Ms each.");
+
+        //int students = intInput("How many students?");
+        //System.out.println("There are " + students + " in class");
+
+
     }
     
 }
